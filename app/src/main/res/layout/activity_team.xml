@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Developers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Team"
+            android:textColor="#2b9782"
+            android:textSize="24dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"/>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            app:cardBackgroundColor="#fcfcf1"
+            app:cardCornerRadius="10dp"
+
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="120dp"
+                        app:civ_border_color="#000000"
+                        app:civ_border_width="2dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/rishwi"
+                        />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:civ_border_color="#000000"
+                        android:layout_weight="1"
+                        android:src="@drawable/saikumar"
+                        app:civ_border_width="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rishwi Binnu\n16H61A0555\nDeveloper"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#000000"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sai Kumar\n16H61A0502\nDeveloper"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            app:cardBackgroundColor="#fcfcf1"
+            app:cardCornerRadius="10dp"
+
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="120dp"
+                        app:civ_border_color="#000000"
+                        app:civ_border_width="2dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/rishwi"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B. Ravinder Reddy\nAssistant Professor \nDepartment of Cse , AGI"
+                        android:gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#000000"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advisor's"
+            android:textSize="22dp"
+            android:textColor="#1580c2"
+            android:gravity="center"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            app:cardBackgroundColor="#fcfcf1"
+            app:cardCornerRadius="10dp"
+
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="120dp"
+                        app:civ_border_color="#000000"
+                        app:civ_border_width="2dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/rishwi"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Madhavi\nAssistant Professor\nDepartment of Cse , AGI"
+                        android:textColor="#000000"
+                        android:layout_marginTop="20dp"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            app:cardBackgroundColor="#fcfcf1"
+            app:cardCornerRadius="10dp"
+
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="120dp"
+                        app:civ_border_color="#000000"
+                        app:civ_border_width="2dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/hod"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. G. Vishnu Murthy\n HOD\nDepartment of Cse , AGI"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+</ScrollView>
